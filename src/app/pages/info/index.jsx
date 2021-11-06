@@ -1,4 +1,4 @@
-import {emailGif} from "./img";
+import emailGif from './img/info-page-email.gif';
 import { Image } from 'react-bootstrap';
 
 function Info() {
