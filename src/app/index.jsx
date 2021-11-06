@@ -11,8 +11,8 @@ import Info from './pages/info';
 
 export default function App() {
     return (
-        <Layout>
-            <BrowserRouter>
+        <BrowserRouter>
+            <Layout>
                 <Routes>
                     <Route exact path='/' element={<Home />} />
                     <Route path='/graphics' element={<Graphics />} />
@@ -20,7 +20,7 @@ export default function App() {
                     <Route path='/shop' element={<Shop />} />
                     <Route path='/info' element={<Info />} />
                 </Routes>
-            </BrowserRouter>
-        </Layout>
+            </Layout>
+        </BrowserRouter>
     );
 }

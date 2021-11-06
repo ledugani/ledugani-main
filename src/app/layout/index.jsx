@@ -1,12 +1,16 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import Header from './navbar';
 
 export default function Layout({ children }) {
     return (
-        <Container fluid>
-            <Row>
-                <Col>{ children }</Col>
-            </Row>
-        </Container>
+        <>
+            <Header />
+            <Container fluid>
+                <Row>
+                    <Col>{ children }</Col>
+                </Row>
+            </Container>
+        </>
     );
 }
