@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# A Note From The Author
+```Hello! Thanks for visiting my codebase, I do hope you enjoy your stay. Please feel free to ask any questions you may find yourself pondering. And thank you for stopping by! :-]   - Tom```
+
+# Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +71,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+![Tom Dugan Copyright 2021 All Rights Reserved](https://github.com/ledugani/ledugani-main/blob/main/public/tom-sig-bbg.png "Tom Dugan Copyright 2021 All Rights Reserved")
