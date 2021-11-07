@@ -1,9 +1,7 @@
-* {
-    font-family: 'Times New Roman', Times, serif;
-}
 
 .home-header {
-    padding: 10px;
+    padding: 0 25px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .hr {
