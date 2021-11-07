@@ -8,7 +8,7 @@ export default function Layout({ children }) {
         <Container fluid className='site-wrapper'>
             <Header />
             <Row className='content'>
-                <Col className=''>{ children }</Col>
+                <Col className='column'>{ children }</Col>
             </Row>
         </Container>
     );
