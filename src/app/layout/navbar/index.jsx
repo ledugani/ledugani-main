@@ -5,11 +5,11 @@ import logo from './img/tahm-1.svg';
 
 function Header () {
     return (
-        <Navbar bg='light'>
+        <Navbar bg='light' className='header'>
             <Nav className='me-auto'>
                 <Nav.Link href='/graphics'>graphics</Nav.Link>
                 <Nav.Link href='/illustrations'>illustrations</Nav.Link>
-                <Nav.Link href='/shop'>shop</Nav.Link>
+                {/* <Nav.Link href='/shop'>shop</Nav.Link> */}
                 <Nav.Link href='./info'>info</Nav.Link>
             </Nav>
             <Container className='justify-content-end'>

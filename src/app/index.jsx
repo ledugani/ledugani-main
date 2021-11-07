@@ -12,7 +12,7 @@ import Info from './pages/info';
 export default function App() {
     return (
         <BrowserRouter>
-            <Layout>
+            <Layout className='layout'>
                 <Routes>
                     <Route exact path='/' element={<Home />} />
                     <Route path='/graphics' element={<Graphics />} />

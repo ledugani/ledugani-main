@@ -7,7 +7,7 @@ function Shop () {
             <Image src="" fluid />
             <div>
                 <h2>
-                    Shop
+                    Shop Coming Soon
                 </h2>
                 <p>
                     Nothing to see here ...yet!
