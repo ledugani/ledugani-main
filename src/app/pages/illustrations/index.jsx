@@ -1,17 +1,34 @@
-import "./styles.css";
-import { Container, Row, Image, Col } from 'react-bootstrap';
+import './styles.css';
+import { Container, Image } from 'react-bootstrap';
+import livingFabrications from './img/2oo3.png';
+import energy from './img/energy.png';
+import groove from './img/groove.png';
+import seikoSandman from './img/seiko-sandman.png';
+import v3RB4T1M from './img/V3RB4T1M.png';
+import wideAwake from './img/wide-awake.png';
 
 function Illustrations () {
     return (
-        <Container className="illustrations" fluid="md">
-            <Row>
-                <Col>
-                    <Image src="" fluid />
-                    <div><h2>
-                        Nothing to see here ...yet!
-                    </h2></div>
-                </Col>
-            </Row>
+        <Container id='carousel' className='illustrations' fluid='md'>
+            <div className='slide'>
+                <Image src={seikoSandman} fluid='md' className='image' />
+            </div>
+            <div className='slide'>
+                <Image src={v3RB4T1M} fluid='md' className='image' />
+            </div>
+            <div className='slide'>
+                <Image src={energy} fluid='md' className='image' />
+            </div>
+            <div className='slide'>
+                <Image src={groove} fluid='md' className='image' />
+            </div>
+            
+            <div className='slide'>
+                <Image src={wideAwake} fluid='md' className='image' />
+            </div>
+            <div className='slide'>
+                <Image src={livingFabrications} fluid='md' className='image' />
+            </div>
         </Container>
     )
 }

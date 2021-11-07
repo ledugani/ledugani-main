@@ -1,0 +1,13 @@
+.illustrations {
+    margin: 5vh 0;
+}
+
+#carousel {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.slide {
+    flex: 0 0 auto;
+}
