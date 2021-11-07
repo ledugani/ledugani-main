@@ -10,33 +10,33 @@ import velocity from './img/velocity_5.png';
 
 function Graphics () {
     return (
-        <Container id='carousel'>
+        <Container id='carousel' className='scrollbar-hidden'>
             <div className='slide'>
-                <Image src={sphere_1} fluid='md' className='image' />
+                <Image src={sphere_1} className='img' />
             </div>
             
             <div className='slide'>
-                <Image src={bighead} fluid='md' className='image' />
+                <Image src={bighead} className='img' />
             </div>
 
             <div className='slide'>
-                <Image src={infernal} fluid='md' className='image' />
+                <Image src={infernal} className='img' />
             </div>
 
             <div className='slide'>
-                <Image src={livingDub1} fluid='md' className='image' />
+                <Image src={livingDub1} className='img' />
             </div>
 
             <div className='slide'>
-                <Image src={oz} fluid='md' className='image' />
+                <Image src={oz} className='img' />
             </div>
 
             <div className='slide'>
-                <Image src={passingThoughts} fluid='md' className='image' />
+                <Image src={passingThoughts} className='img' />
             </div>
 
             <div className='slide'>
-                <Image src={velocity} fluid='md' className='image' />
+                <Image src={velocity} className='img' />
             </div>
         </Container>
     )

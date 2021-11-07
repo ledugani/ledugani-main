@@ -11,3 +11,16 @@
 .slide {
     flex: 0 0 auto;
 }
+
+.img {
+    margin-top: 2vh;
+    padding-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    
+    .img {
+        height: 50vh !important;
+    }
+}

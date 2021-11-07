@@ -9,25 +9,25 @@ import wideAwake from './img/wide-awake.png';
 
 function Illustrations () {
     return (
-        <Container id='carousel' className='illustrations' fluid='md'>
+        <Container id='carousel' className='illustrations'>
             <div className='slide'>
-                <Image src={seikoSandman} fluid='md' className='image' />
+                <Image src={seikoSandman} className='img' />
             </div>
             <div className='slide'>
-                <Image src={v3RB4T1M} fluid='md' className='image' />
+                <Image src={v3RB4T1M} className='img' />
             </div>
             <div className='slide'>
-                <Image src={energy} fluid='md' className='image' />
+                <Image src={energy} className='img' />
             </div>
             <div className='slide'>
-                <Image src={groove} fluid='md' className='image' />
+                <Image src={groove} className='img' />
             </div>
             
             <div className='slide'>
-                <Image src={wideAwake} fluid='md' className='image' />
+                <Image src={wideAwake} className='img' />
             </div>
             <div className='slide'>
-                <Image src={livingFabrications} fluid='md' className='image' />
+                <Image src={livingFabrications} className='img' />
             </div>
         </Container>
     )
