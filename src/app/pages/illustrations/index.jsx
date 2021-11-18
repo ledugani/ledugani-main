@@ -1,11 +1,11 @@
 import './styles.css';
 import { Container, Image } from 'react-bootstrap';
-import livingFabrications from './img/2oo3.png';
-import energy from './img/energy.png';
-import groove from './img/groove.png';
-import seikoSandman from './img/seiko-sandman.png';
-import v3RB4T1M from './img/V3RB4T1M.png';
-import wideAwake from './img/wide-awake.png';
+import livingFabrications from './img/2oo3.jpg';
+import energy from './img/energy.jpg';
+import groove from './img/groove.jpg';
+import seikoSandman from './img/seiko-sandman.jpg';
+import v3RB4T1M from './img/V3RB4T1M.jpg';
+import wideAwake from './img/wide-awake.jpg';
 
 function Illustrations () {
     return (

@@ -1,5 +1,5 @@
 import './styles.css';
-import logo from './img/tahm-man-ds.png'
+import logo from './img/tahm-man-ds.jpg'
 import { Image } from 'react-bootstrap';
 
 function Home () {

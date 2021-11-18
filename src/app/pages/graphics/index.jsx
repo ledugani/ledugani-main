@@ -1,12 +1,12 @@
 import './styles.css';
 import { Image, Container } from 'react-bootstrap';
-import sphere_1 from './img/sphere_1.png';
-import bighead from './img/bighead.png';
-import infernal from './img/infernal.png';
-import livingDub1 from './img/living-dub-1.png';
-import oz from './img/oz-bw.png';
-import passingThoughts from './img/passing-thoughts.png';
-import velocity from './img/velocity_5.png';
+import sphere_1 from './img/sphere_1.jpg';
+import bighead from './img/bighead.jpg';
+import infernal from './img/infernal.jpg';
+import livingDub1 from './img/living-dub-1.jpg';
+import oz from './img/oz-bw.jpg';
+import passingThoughts from './img/passing-thoughts.jpg';
+import velocity from './img/velocity_5.jpg';
 
 function Graphics () {
     return (
